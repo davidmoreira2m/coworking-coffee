@@ -1,3 +1,4 @@
+import AppStore from './components/AppStore/AppStore';
 import BestSellingCoffees from './components/BestSellingCoffees/BestSellingCoffees';
 import InteractiveBanner from './components/InteractiveBanner/InteractiveBanner';
 import Navbar from './components/navbar/Navbar';
@@ -10,6 +11,7 @@ const App = () => {
       <InteractiveBanner />
       <BestSellingCoffees />
       <PremiumCoffee />
+      <AppStore />
     </div>
   );
 };
