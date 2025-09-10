@@ -1,12 +1,12 @@
-import './InteractiveBanner.css';
+import styles from './interactive-banner.module.css';
 import BannerImage from '../../assets/banner-image.png';
 
 const InteractiveBanner = () => {
   return (
-    <div className="InteractiveBanner">
-      <div className="interactive-banner-container">
+    <div className={styles.InteractiveBanner}>
+      <div className={styles.interactiveBannerContainer}>
         {/* text-content-section */}
-        <div className="text-content-section">
+        <div className={styles.textContentSection}>
           <h1>
             Servimos o <span>Café</span> mais gostoso da cidade
           </h1>
@@ -18,20 +18,21 @@ const InteractiveBanner = () => {
             Ideal para você e sua equipe passarem um dia inesquecível em um
             ambiente inspirador
           </p>
-          <div className="container-button">
-            <button className="primary-button">Café & Code</button>
+          <div className={styles.containerButton}>
+            <button className={styles.primaryButton}>Café & Code</button>
           </div>
         </div>
+
         {/* image-section */}
-        <div className="image-section">
-          <div className="code">
-            <button className="primary-button">Agendar Coworking</button>
+        <div className={styles.imageSection}>
+          <div className={styles.code}>
+            <button className={styles.primaryButton}>Agendar Coworking</button>
           </div>
-          <div className="image-coffee">
+          <div className={styles.imageCoffee}>
             <img src={BannerImage} alt="imagem de um café" />
           </div>
-          <div className="coffee">
-            <button className="primary-button">Beba seu café</button>
+          <div className={styles.coffee}>
+            <button className={styles.primaryButton}>Beba seu café</button>
           </div>
         </div>
       </div>

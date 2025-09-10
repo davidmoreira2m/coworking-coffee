@@ -1,33 +1,33 @@
 import Logo from '../../assets/website/logo.svg';
 import { Menu } from './menuitem';
 import { FaCoffee } from 'react-icons/fa';
-import './navbar.css';
+import styles from './Navbar.module.css';
 
 const Navbar = () => {
   return (
-    <div className="navbar-container">
-      <div className="navbar-content">
+    <div className={styles.navbarContainer}>
+      <div className={styles.navbarContent}>
         {/* Logo Section */}
-        <div className="container-logo">
-          <a href="/" className="redirec-link">
-            <img src={Logo} alt="Logo" className="image-logo" />
-            <div className="content-text">
-              <span className="text-logo">Coworking Café</span>
+        <div className={styles.containerLogo}>
+          <a href="/" className={styles.redirecLink}>
+            <img src={Logo} alt="Logo" className={styles.imageLogo} />
+            <div className={styles.contentText}>
+              <span className={styles.textLogo}>Coworking Café</span>
             </div>
           </a>
         </div>
         {/* Links section */}
-        <div className="container-links">
-          <ul className="list-links">
+        <div className={styles.containerLinks}>
+          <ul className={styles.listLinks}>
             {Menu.map((menu) => (
-              <li key={menu.id} className="link">
-                <a href={menu.link} className="link-name">
+              <li key={menu.id} className={styles.link}>
+                <a href={menu.link} className={styles.linkName}>
                   {menu.name}
                 </a>
               </li>
             ))}
           </ul>
-          <button className="cart-button">
+          <button className={styles.cartButton}>
             Carrinho <FaCoffee />
           </button>
         </div>

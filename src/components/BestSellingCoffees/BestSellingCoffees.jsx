@@ -1,22 +1,26 @@
-import './best-selling-coffees.css';
+import styles from './best-selling-coffees.module.css';
 import { Coffees } from './mock-coffees.js';
 
 const BestSellingCoffees = () => {
   return (
-    <div className="BestSellingCoffees">
-      <div className="container-best-selling-coffees">
-        <div className="heading-section">
-          <h2 className="section-title">Você merece o melhor café!</h2>
+    <div className={styles.BestSellingCoffees}>
+      <div className={styles.containerBestSellingCoffees}>
+        <div className={styles.headingSection}>
+          <h2 className={styles.sectionTitle}>Você merece o melhor café!</h2>
         </div>
-        <div className="container-cards">
+        <div className={styles.containerCards}>
           {Coffees.map((service) => (
-            <div className="card" key={service.id}>
-              <div className="container-image">
-                <img className="image" src={service.img} alt="modelo do café" />
+            <div className={styles.card} key={service.id}>
+              <div className={styles.containerImage}>
+                <img
+                  className={styles.image}
+                  src={service.img}
+                  alt="modelo do café"
+                />
               </div>
-              <div className="text-section">
-                <h3 className="coffee-name">{service.name}</h3>
-                <p className="description">{service.description}</p>
+              <div className={styles.textSection}>
+                <h3 className={styles.coffeeName}>{service.name}</h3>
+                <p className={styles.description}>{service.description}</p>
               </div>
             </div>
           ))}

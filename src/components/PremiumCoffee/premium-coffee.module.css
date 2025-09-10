@@ -1,0 +1,95 @@
+.PremiumCoffee {
+  background-color: #fff;
+  height: 600px;
+}
+
+.containerPremiumCoffee {
+  display: flex;
+  flex-direction: row;
+}
+
+.containerImage {
+  box-shadow: 4px -6px 6px rgba(0, 0, 0, 0.4);
+}
+
+.imagePremiumCoffee {
+  object-fit: fill;
+  width: 405px;
+  height: 600px;
+}
+
+.textContentSection {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleSection {
+  width: 100;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 3rem;
+}
+
+.premiumIcon {
+  margin: 2rem 5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.specials {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+}
+
+.contentSpecials {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.circle {
+  background-color: #c4c4c4;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typeOffCoffee {
+  font-size: 1.5rem;
+}
+
+.teaLovers {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.specialLines {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  padding: 0 3rem;
+}
+
+.containerImageUltraSpecial {
+  height: 600px;
+  width: 405px;
+  box-shadow: -4px 0px 6px rgba(0, 0, 0, 0.2);
+}
+
+.imagePremiumCoffee {
+
+}

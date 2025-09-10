@@ -6,7 +6,7 @@
   justify-content: center;
 }
 
-.interactive-banner-container {
+.interactiveBannerContainer {
   display: flex;
   flex-direction: row;
   padding: 1rem 2rem;
@@ -14,7 +14,7 @@
   color: #fff;
 }
 
-.text-content-section {
+.textContentSection {
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -22,33 +22,34 @@
   justify-content: center;
 }
 
-.container-button {
+.containerButton {
   margin-top: 2rem;
 }
 
-.text-content-section h1 {
+.textContentSection h1 {
   font-size: 2.8rem;
 }
-.text-content-section h2 {
+
+.textContentSection h2 {
   font-size: 1.9rem;
 }
 
-.text-content-section p {
+.textContentSection p {
   font-size: 1.3rem;
 }
 
-.primary-button {
+.primaryButton {
   font-size: 1.2rem;
   width: auto;
   padding: 5px 10px;
   border-radius: 7px;
 }
 
-.primary-button:hover {
+.primaryButton:hover {
   opacity: 0.7;
 }
 
-.image-section {
+.imageSection {
   width: 50%;
   display: flex;
   flex-direction: row;
@@ -64,11 +65,10 @@
   height: 100%;
 }
 
-.image-coffee {
+.imageCoffee {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .coffee {
