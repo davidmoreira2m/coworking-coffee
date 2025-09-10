@@ -1,3 +1,4 @@
+import BestSellingCoffees from './components/BestSellingCoffees/BestSellingCoffees';
 import InteractiveBanner from './components/InteractiveBanner/InteractiveBanner';
 import Navbar from './components/navbar/Navbar';
 
@@ -6,6 +7,7 @@ const App = () => {
     <div>
       <Navbar />
       <InteractiveBanner />
+      <BestSellingCoffees />
     </div>
   );
 };

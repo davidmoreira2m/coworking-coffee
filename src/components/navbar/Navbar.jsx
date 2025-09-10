@@ -12,7 +12,6 @@ const Navbar = () => {
           <a href="/" className="redirec-link">
             <img src={Logo} alt="Logo" className="image-logo" />
             <div className="content-text">
-              <span className="text-logo">Code Crux</span>
               <span className="text-logo">Coworking Café</span>
             </div>
           </a>
