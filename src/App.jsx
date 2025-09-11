@@ -1,5 +1,6 @@
 import AppStore from './components/AppStore/AppStore';
 import BestSellingCoffees from './components/BestSellingCoffees/BestSellingCoffees';
+import Footer from './components/Footer/Footer.jsx';
 import InteractiveBanner from './components/InteractiveBanner/InteractiveBanner';
 import Navbar from './components/navbar/Navbar';
 import PremiumCoffee from './components/PremiumCoffee/PremiumCoffee';
@@ -14,6 +15,7 @@ const App = () => {
       <PremiumCoffee />
       <AppStore />
       <Testimonials />
+      <Footer />
     </div>
   );
 };
