@@ -3,6 +3,7 @@ import BestSellingCoffees from './components/BestSellingCoffees/BestSellingCoffe
 import InteractiveBanner from './components/InteractiveBanner/InteractiveBanner';
 import Navbar from './components/navbar/Navbar';
 import PremiumCoffee from './components/PremiumCoffee/PremiumCoffee';
+import Testimonials from './components/Testimonials/Testimonials.jsx';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <BestSellingCoffees />
       <PremiumCoffee />
       <AppStore />
+      <Testimonials />
     </div>
   );
 };
